@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Luana Mendes</title>
+  <meta name="description" content="Luana Mendes · Substack, Strava e calculadora de pace.">
+  <meta name="theme-color" content="#FFFAF1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Luana Mendes">
+  <meta property="og:description" content="Substack, Strava e calculadora de pace.">
+  <meta property="og:url" content="https://luanamendes.com/">
+  <meta property="og:image" content="https://luanamendes.com/portfolio/img/hero-luana.jpg">
+  <link rel="icon" type="image/svg+xml" href="portfolio/img/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="portfolio/img/favicon-32.png">
+  <link rel="apple-touch-icon" href="portfolio/img/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,800&display=swap">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+
+
+    <!-- Perfil -->
+    <header class="profile">
+      <img class="profile__photo" src="portfolio/img/hero-luana.jpg" width="150" height="150" alt="Luana Mendes">
+      <h1 class="profile__name">Luana Mendes</h1>
+      <button class="profile__email" id="copy-email" type="button" title="clique para copiar" data-email="hello@luanamendes.com">hello@luanamendes.com</button>
+      <ul class="socials">
+        <li>
+          <a href="mailto:hello@luanamendes.com" aria-label="Mandar e-mail para hello@luanamendes.com">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6 8.5 7 8.5-7"/></svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://instagram.com/luuanamendes" target="_blank" rel="noopener" aria-label="Instagram @luuanamendes">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.tiktok.com/@luuanamendesdaily" target="_blank" rel="noopener" aria-label="TikTok @luuanamendesdaily">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.6 2h-3.4v13.4a3 3 0 1 1-3-3c.3 0 .6 0 .9.1V9a6.5 6.5 0 1 0 5.5 6.4V8.8a8 8 0 0 0 4.4 1.3V6.7a4.4 4.4 0 0 1-4.4-4.4V2Z"/></svg>
+          </a>
+        </li>
+        <li>
+          <button class="share" id="share" type="button" aria-label="Compartilhar esta página" data-url="https://luanamendes.com/" data-title="Luana Mendes">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg>
+          </button>
+        </li>
+      </ul>
+    </header>
+
+    <!-- Links -->
+    <ul class="links">
+      <li>
+        <a class="link" href="https://substack.com/@luuanamendes" target="_blank" rel="noopener">
+          <img class="link__icon" src="img/logo-sub.svg" alt="">
+          <span class="link__title">— meu substack</span>
+          <span class="link__sub">pensamentos &amp; outras fofocas.</span>
+        </a>
+      </li>
+      <li>
+        <a class="link" href="https://www.strava.com/athletes/127046075" target="_blank" rel="noopener">
+          <img class="link__icon" src="img/logo-strava.svg" alt="">
+          <span class="link__title">— meu strava</span>
+          <span class="link__sub">treino, corro &amp; surto.</span>
+        </a>
+      </li>
+      <li>
+        <a class="link link--no-icon" href="https://pacera-theta.vercel.app/calculadora.html" target="_blank" rel="noopener">
+          <span class="link__title">— calculadora de pace</span>
+          <span class="link__sub">para calcular seu sofrimento &lt;3</span>
+        </a>
+      </li>
+    </ul>
+
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden>link copiado ✓</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
